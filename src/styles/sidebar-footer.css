@@ -1,0 +1,242 @@
+
+body {
+    background-color: #000;
+    padding: 8px;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 29%;
+    padding-right: 0;
+}
+
+.sidebar_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    color: inherit;
+}
+
+.sidebar_navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul li {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.library_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.library_button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.library_content .fa-book {
+    font-size: 1rem;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library_content .fa-plus {
+    margin: 21px 10px 27px 10px ;
+}
+
+.section-playlist {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25rem;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.section-playlist_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist_content .text {
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+.section-playlist_content .title {
+    font-weight: 700;
+}
+
+.section-playlist_content .subtitle {
+    font-weight: 500;
+    font-size: 0.8;
+}
+
+.section-playlist_button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 0.8;
+    font-weight: 700;
+    padding: 10px;
+    width: 113px;
+    margin-top: 12px;
+}
+
+.button-explore {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 0.8;
+    font-weight: 700;
+    padding: 10px;
+    width: 150px;
+    margin-top: 12px;
+}
+
+.cookies {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 20px 20px;
+    height: 20vh;
+}
+
+.cookies ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: start;
+    height: 10vh;
+
+}
+
+.cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-right: 10px;
+}
+
+.cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages_button {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 66px;
+
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+}
+
+footer .text-footer  {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #fff;
+    padding: 11px 24px 7px 15px;
+}
+
+footer div h3 {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+footer div p {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+footer button {
+    text-align: center;
+    margin-right: 2rem;
+    border-radius: 20px;
+    height: 5vh;
+    padding: 8px 32px;
+    margin-top: 10px;
+}
+
+button:hover:not(.library_button) {
+    transform: scale(1.1);
+}
+
+footer button span {
+    font-size: 1rem;
+    font-weight: bold;
+}
