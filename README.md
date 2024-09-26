@@ -1,7 +1,7 @@
 <h1>Construção cópia do site do Spotify</h1>
 
 <button>
-<a href="https://spotify-doc.vercel.app/" target="_blank" >Acesse aqui
+<a href="https://spotify-doc.vercel.app/">Acesse aqui
 </a> </button>
 
 <h2>�� Sobre</h2>
