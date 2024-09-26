@@ -5,7 +5,7 @@
 </a> </button>
 
 <h2>�� Sobre</h2>
-<p>Projeto utilizado na semana DevemDobro 2022.</p>
+<p>Projeto com mentoria da equipe da Alura.</p>
 
 ## �� Tecnologias
 <div>
